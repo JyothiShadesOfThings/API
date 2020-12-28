@@ -1,0 +1,31 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "api's for wound_data_capture",
+  "main": "app.js",
+  "dependencies": {
+    "adm-zip": "^0.4.16",
+    "aws-sdk": "^2.726.0",
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-mysql-session": "^2.1.4",
+    "express-session": "^1.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.4.17",
+    "nodemailer-sendgrid": "^1.0.3",
+    "pm2": "^4.4.1",
+    "process-env": "^2.0.2",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Jyothi",
+  "license": "ISC"
+}
